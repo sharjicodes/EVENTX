@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family:'poppins',sans-serif;
+}
+
+body.light {
+    --bg-color: #fff;
+    --text-color: #000;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+body.dark {
+    --bg-color: #000;
+    --text-color: #fff;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
