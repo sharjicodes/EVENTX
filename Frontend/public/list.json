@@ -1,0 +1,76 @@
+[
+    {
+        "id": 1,
+        "name": "Wedding",
+        "title": "stage decaration wedding events",
+        "category": "free",
+        "price": 100,
+        "image": "https://img.freepik.com/free-photo/groom-putting-ring-bride-s-finger_1157-338.jpg"
+   
+    },
+    {
+        "id": 2,
+        "name": "Funeral",
+        "title": "Funeral Events",
+        "category": "free",
+        "price": 100,
+        "image": "https://video-images.vice.com/test-uploads/articles/5e8e11711f3611009884b77f/lede/1586369199663-lede-pallbearer.png?crop=0.8747xw:0.9671xh;0.0054xw,0.0319xh"
+    },
+    {
+        "id": 3,
+        "name": "Bachelor Party",
+        "title": "Bachelor Party Events",
+        "category": "free",
+        "price": 100,
+        "image": "https://preview.redd.it/p12ys6821jg51.png?width=679&format=png&auto=webp&s=388fd4a72e134bc7565720edca9ffec5cdc10a8b"
+    },
+    {
+        "id": 4,
+        "name": "Baby shower",
+        "title": "baby shower events",
+        "category": "free",
+        "price": 100,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv67KIkQ8VeWiliNF2ap4Z3q6CTl7CH8pQxg&s"
+    },
+    {
+        "id": 5,
+        "name": "House warming",
+        "title": "house warming events",
+        "category": "free",
+        "price": 100,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9mvvgZGthnPBJyM_nOF_ubWsUhKSB0QIDfQ&s"
+    },
+    {
+        "id": 6,
+        "name": "Bride To Be",
+        "title": "Bride To Be Events",
+        "category": "free",
+        "price": 100,
+        "image": "https://cdn.shopify.com/s/files/1/0674/5289/5554/files/bride_to_be_decorations_pune_480x480.png?v=1680275701"
+    },
+    {
+        "id": 7,
+        "name": "Groom To Be",
+        "title": "Groom To Be Events ",
+        "category": "free",
+        "price": 100,
+        "image": "https://images.meesho.com/images/products/245673608/waupr_512.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Engagement",
+        "title": "Engagements Events",
+        "category": "free",
+        "price": 100,
+        "image": "https://image.wedmegood.com/resized-nw/700X/wp-content/uploads/2018/09/PRJA9793.jpg"
+    },
+    
+    {
+        "id": 9,
+        "name": "Birthday Party",
+        "title": "Birthday Party Events",
+        "category": "free",
+        "price": 100,
+        "image": "https://alankaran.com/wp-content/uploads/2020/01/Alankaran-Birthday-Party-Ideas-Hyderabad.jpg"
+    }
+]
