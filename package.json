@@ -1,0 +1,27 @@
+{
+  "name": "eventx",
+  "version": "1.0.0",
+  "description": "Event Management Platform",
+  "private": true,
+  "scripts": {
+    "dev": "cd Frontend && npm run dev",
+    "build": "cd Frontend && npm run build",
+    "preview": "cd Frontend && npm run preview",
+    "install-deps": "cd Frontend && npm install"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sharjicodes/EVENTX.git"
+  },
+  "keywords": [
+    "events",
+    "react",
+    "vite",
+    "tailwindcss"
+  ],
+  "author": "Sharjith",
+  "license": "MIT"
+} 
