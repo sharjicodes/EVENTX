@@ -6,6 +6,9 @@
 
 body{
     font-family:'poppins',sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
 }
 
 body.light {
@@ -20,4 +23,99 @@ body.dark {
     --text-color: #fff;
     background-color: var(--bg-color);
     color: var(--text-color);
+}
+
+/* Mobile-specific improvements */
+@media (max-width: 768px) {
+    /* Improve touch targets */
+    button, a, [role="button"] {
+        min-height: 44px;
+        min-width: 44px;
+    }
+    
+    /* Better scrolling on mobile */
+    html {
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    /* Prevent zoom on input focus */
+    input, textarea, select {
+        font-size: 16px;
+    }
+    
+    /* Improve card touch interactions */
+    .card {
+        touch-action: manipulation;
+    }
+    
+    /* Better spacing for mobile */
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+/* Touch-friendly hover states */
+@media (hover: hover) {
+    .hover\:scale-105:hover {
+        transform: scale(1.05);
+    }
+}
+
+/* Disable hover effects on touch devices */
+@media (hover: none) {
+    .hover\:scale-105:hover {
+        transform: none;
+    }
+}
+
+/* Smooth transitions */
+* {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+/* Loading states */
+.loading {
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+/* Focus styles for accessibility */
+button:focus, a:focus, input:focus, textarea:focus {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Dark mode scrollbar */
+.dark ::-webkit-scrollbar-track {
+    background: #374151;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+    background: #6b7280;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+    background: #9ca3af;
 }
